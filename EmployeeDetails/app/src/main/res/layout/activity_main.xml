@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assignment.db.rsantosh.com.employeedetails.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emp_name"
+            android:text="@string/name"
+            android:layout_gravity="left"
+            android:layout_weight="2"
+            android:background="@android:color/holo_blue_light"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/db_name"
+            android:text="@string/data_base_name"
+            android:layout_gravity="right"
+            android:layout_weight="4"
+            android:layout_marginLeft="@dimen/left1"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emp_age"
+            android:text="@string/age"
+            android:layout_gravity="left"
+            android:layout_weight="2"
+            android:background="@android:color/holo_blue_light"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/db_age"
+            android:text="@string/database_age"
+            android:layout_gravity="right"
+            android:layout_weight="4"
+            android:layout_marginLeft="@dimen/left"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemp_photo"
+        android:text="Employee Photo"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/TextViewTopMargin"
+        android:background="@android:color/holo_blue_light"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emp_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/imgTopMargin"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Employee Details</string>
+    <string name="name">Name: </string>
+    <string name="data_base_name">Data Base name</string>
+    <string name="age">Age :</string>
+    <string name="database_age">Database Age</string>
+</resources>
